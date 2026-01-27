@@ -6,6 +6,9 @@
 .RData
 .RDataTmp
 
+.DS_Store
+**/.DS_Store
+
 # User-specific files
 .Ruserdata
 
@@ -47,3 +50,4 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+Session 02/.DS_Store
