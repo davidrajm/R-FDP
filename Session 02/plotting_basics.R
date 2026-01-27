@@ -148,7 +148,7 @@ penguins %>%
       x = island
     )
   ) + 
-  geom_bar() +
+  geom_bar(aes(fill = island)) +
   facet_grid(year~species)
 
 
