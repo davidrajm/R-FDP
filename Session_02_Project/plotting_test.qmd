@@ -1,0 +1,25 @@
+---
+title: "Session 02 Plotting in R"
+format: 
+  typst: default
+editor: visual
+---
+
+# Introduction
+
+In this lab, we are going to see how to plot different plottings in R.
+
+# How to do the plotting?
+
+In this section, we shall learn ....
+
+```{r}
+a = 3
+b = 4
+a + b
+```
+
+```{r}
+df = read.csv("./data/Salary_Data.csv")
+head(df)
+```

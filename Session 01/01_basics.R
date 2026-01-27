@@ -245,13 +245,29 @@ set.seed(100)
 sample(items,2)
 
 
+## Reading the data
+df = read.csv("./data/Salary_Data.csv")
+head(df)
+dim(df)
+summary(df)
+str(df)
+
+# What is the mean years of exp?
+mean(df$YearsExperience)
+median(df$YearsExperience)
 
 
+#how many observations are above the mean/median?
+length(df$YearsExperience)
+yrs_exp = df$YearsExperience
+length(yrs_exp[yrs_exp > mean(yrs_exp)])
 
+df[1:5,2]
 
-
-
-
+#Give me the top 5 salaries.
+sal = df$Salary
+sorted_sal = sort(sal,decreasing = T)
+sorted_sal[1:5]
 
 
 
